@@ -1,9 +1,9 @@
 #!/usr/bin/env Rscript
 args = commandArgs(trailingOnly=TRUE);
-print(args)
+#print(args)
 
-n = rnorm(args[1])
+data = rnorm(args[1])
 
-print(n)
+print(data)
 
 
